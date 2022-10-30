@@ -11,3 +11,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 0 15px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  height: auto;
+  border: 1px solid #000;
+  padding: 50px ;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 15px;
+}
+
+.form-sector label {
+display: block;
+}
+
+.form-sector input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  transition: all .3s ease 0s;
+  margin-bottom: 20px;
+}
+
+.form-sector input:focus {
+  transform: scale(1.03);
+}
+
+.form-sector-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-sector-check label {
+  flex: 1;
+}
+
+.form-sector-check input {
+  flex: 1;
+  height: 20px;
+}
+
+.check {
+  display: inline-block;
+}
+
+.selector-form {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.select-form {
+  width: 100%;
+}
+
+.select-form {
+  font-size: 16px;
+}
+
+.select-form option {
+  font-size: 16px;
+}
+
+.male {
+  color: #0840d9;
+}
+
+.female {
+  color: #bb01be;
+}
+
+.btn {
+  width: 100%;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  transition: all .3s ease 0s;
+}
+
+.btn:hover {
+  background-color: #242424;
+}
+
+.btn:focus {
+  outline: none;
+}
